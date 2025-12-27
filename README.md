@@ -1,16 +1,33 @@
-## Hi there 👋
+<h1 align="center">Hi 👋, I'm Ritik Pandey</h1>
+<h3 align="center">Backend Developer | Python | FastAPI | MongoDB</h3>
 
-<!--
-**RitikPandey68/RitikPandey68** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+---
 
-Here are some ideas to get you started:
+### 👨‍💻 About Me
+- 🎓 Final Year CSE Student (VTU, 2026)
+- 🧠 Focused on Backend Development & APIs
+- 🔐 Interested in Secure & Scalable Systems
+- 🚀 Building real-world backend projects
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+### 🛠️ Tech Stack
+- **Languages:** Python, Java
+- **Backend:** FastAPI, Flask
+- **Database:** MongoDB, MySQL
+- **Auth:** JWT
+- **Tools:** Git, Postman
+
+---
+
+### 📌 Featured Project
+🔹 **AI-Powered Attendance Tracking System**  
+Secure backend with JWT, RBAC, MongoDB & dashboards
+
+---
+
+### 📫 Connect With Me
+- GitHub: https://github.com/RitikPandey68
+- LinkedIn: https://www.linkedin.com/in/ritik-pandey-sde/
+- Leetcode: https://leetcode.com/u/ritikpandeycode/
+- HakcerRank: https://www.hackerrank.com/profile/pandeyritikkuma1
