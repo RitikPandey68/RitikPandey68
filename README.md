@@ -1,4 +1,4 @@
-﻿<h1 align="center">Hi ðŸ‘‹, I'm Ritik Pandey</h1>
+<h1 align="center">Hi ðŸ‘‹, I'm Ritik Pandey</h1>
 <h3 align="center">Software Developer | Backend & Java Full Stack</h3>
 
 <p align="center">
