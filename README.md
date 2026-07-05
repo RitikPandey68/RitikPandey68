@@ -49,46 +49,73 @@
 # 🚀 Tech Stack
 
 ### 💻 Programming Languages
-<p>
-  <img src="https://skillicons.dev/icons?i=java,python,cpp,js,ts,c,html,css" alt="Languages"/>
-</p>
+<table>
+  <tr>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=java" width="40" alt="Java"/><br><sub><b>Java</b></sub></td>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=python" width="40" alt="Python"/><br><sub><b>Python</b></sub></td>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=cpp" width="40" alt="C++"/><br><sub><b>C++</b></sub></td>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=js" width="40" alt="JavaScript"/><br><sub><b>JavaScript</b></sub></td>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=ts" width="40" alt="TypeScript"/><br><sub><b>TypeScript</b></sub></td>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=c" width="40" alt="C"/><br><sub><b>C</b></sub></td>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=html" width="40" alt="HTML5"/><br><sub><b>HTML5</b></sub></td>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=css" width="40" alt="CSS3"/><br><sub><b>CSS3</b></sub></td>
+  </tr>
+</table>
 
 ### ⚙️ Backend Development
-<p>
-  <img src="https://skillicons.dev/icons?i=spring,fastapi,nodejs" alt="Backend"/>
-</p>
+<table>
+  <tr>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=spring" width="40" alt="Spring Boot"/><br><sub><b>Spring Boot</b></sub></td>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=fastapi" width="40" alt="FastAPI"/><br><sub><b>FastAPI</b></sub></td>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=nodejs" width="40" alt="Node.js"/><br><sub><b>Node.js</b></sub></td>
+  </tr>
+</table>
 
 ### 🗄️ Databases & Caching
-<p>
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis" alt="Databases"/>
-</p>
+<table>
+  <tr>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=postgres" width="40" alt="PostgreSQL"/><br><sub><b>PostgreSQL</b></sub></td>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=mysql" width="40" alt="MySQL"/><br><sub><b>MySQL</b></sub></td>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=mongodb" width="40" alt="MongoDB"/><br><sub><b>MongoDB</b></sub></td>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=redis" width="40" alt="Redis"/><br><sub><b>Redis</b></sub></td>
+  </tr>
+</table>
 
 ### ☁️ Cloud & DevOps
-<p>
-  <img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,linux,git,github" alt="DevOps"/>
-</p>
+<table>
+  <tr>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=aws" width="40" alt="AWS"/><br><sub><b>AWS</b></sub></td>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=docker" width="40" alt="Docker"/><br><sub><b>Docker</b></sub></td>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=kubernetes" width="40" alt="Kubernetes"/><br><sub><b>Kubernetes</b></sub></td>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=linux" width="40" alt="Linux"/><br><sub><b>Linux</b></sub></td>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=git" width="40" alt="Git"/><br><sub><b>Git</b></sub></td>
+    <td align="center" width="90"><img src="https://skillicons.dev/icons?i=github" width="40" alt="GitHub"/><br><sub><b>GitHub</b></sub></td>
+  </tr>
+</table>
 
 ---
 
 # ⭐ Featured Projects
 
-*Below is a showcase of production-ready and enterprise-grade repositories. Click on each card to expand the full recruiter brief.*
+*Below is a showcase of production-ready and enterprise-grade repositories. Key details and tech stacks are visible immediately; click to expand highlights and architectural choices.*
 
 <br>
 
 <!-- Project 1 -->
+### 🛠️ Project 1: NovaITSM — Enterprise ITIL Service Desk & ServiceNow Sandbox
+> 📄 **Description**: A production-grade ITIL v4 Service Desk Portal and ServiceNow simulation engine incorporating incident/problem workflows, SLA monitoring counters, CMDB tracking, and Active Directory lockout overrides.
+> ⚙️ **Core Tech Stack**: `Python`, `FastAPI`, `PostgreSQL`, `MySQL`, `Redis`, `Chart.js`, `Docker Compose`
+
 <details>
-  <summary><b>🛠️ Project 1: NovaITSM — Enterprise ITIL Service Desk & ServiceNow Sandbox</b></summary>
+  <summary>🔍 Click to view Features & Architecture details</summary>
   <br>
   
-  ### 📌 Overview
+  ### 📌 Overview Details
   * **Problem Statement**: Enterprise IT operations struggle with fragmented ticketing systems, delayed SLA resolutions, lack of real-time query visibility, and decoupled testing environments for ServiceNow developers.
-  * **What it does**: A production-grade **ITIL v4 Service Desk Portal** and **ServiceNow simulation engine** incorporating incident/problem workflows, SLA monitoring counters, CMDB tracking, and Active Directory lockout overrides.
-  * **Tech Stack**: `Python`, `FastAPI`, `PostgreSQL` (ITSM Tickets), `MySQL` (CMDB Assets), `Redis` (Lockout Security), `Chart.js`, `Vanilla CSS` (Glassmorphism), `Docker Compose`.
   * **Key Features**:
     * **Operations Dashboard**: Real-time SLA tracking alerts and automatic MTTR (Mean Time to Resolve) calculation statistics.
     * **ITIL Queues**: Dynamic incident submission pipelines, problem management logs, and standard CMDB catalogs.
-    * **Active Directory Security**: Enforces brute-force lockout defenses in Redis after 3 consecutive failed logins with admin overrides.
+    * **Active Directory Self-Service**: Enforces brute-force lockout defenses in Redis after 3 consecutive failed logins with admin overrides.
     * **ServiceNow PDI Sandbox**: Interprets client scripts (`g_form`), UI policies, GlideSystem business rules, and OUTBOUND REST integrations dynamically.
   * **Architecture Highlights**:
     * Clean multi-database routing configuration utilizing PostgreSQL for write-heavy tickets and MySQL for static CMDB records.
@@ -97,15 +124,19 @@
   * **🔗 Repository**: [Nova-Itsm-Service-Desk](https://github.com/RitikPandey68/Nova-Itsm-Service-Desk)
 </details>
 
+<br>
+
 <!-- Project 2 -->
+### 🤖 Project 2: ResumeAI Pro — AI ATS Resume Analyzer
+> 📄 **Description**: An AI-powered web platform parsing candidate resumes, matching them against job descriptions, calculating ATS scores, and suggesting skill enhancements.
+> ⚙️ **Core Tech Stack**: `Python`, `FastAPI`, `NLP` (Natural Language Processing), `Machine Learning`, `HTML5`, `CSS3`, `JavaScript`
+
 <details>
-  <summary><b>🤖 Project 2: ResumeAI Pro — AI ATS Resume Analyzer</b></summary>
+  <summary>🔍 Click to view Features & Architecture details</summary>
   <br>
   
-  ### 📌 Overview
+  ### 📌 Overview Details
   * **Problem Statement**: Job seekers struggle to bypass automated Applicant Tracking Systems (ATS) because they lack deep insights into keyword indexing gaps, parser errors, and overall selection metrics.
-  * **What it does**: An AI-powered web platform parsing candidate resumes, matching them against job descriptions, calculating ATS scores, and suggesting skill enhancements.
-  * **Tech Stack**: `Python`, `FastAPI`, `NLP` (Natural Language Processing), `Machine Learning`, `Vanilla HTML5/CSS3/JavaScript`.
   * **Key Features**:
     * **Multi-Dimensional ATS Engine**: Simulates enterprise parser rules (e.g. Taleo, Workday) to compute fit scores.
     * **Section Match Analysis**: Side-by-side display of resume parts versus target job criteria.
@@ -119,15 +150,19 @@
   * **🔗 Repository**: [Ai-Resume-Analyzer](https://github.com/RitikPandey68/Ai-Resume-Analyzer)
 </details>
 
+<br>
+
 <!-- Project 3 -->
+### 💰 Project 3: Personal Finance Tracker — Secure Expense Management
+> 📄 **Description**: A fully secured, production-ready expense tracker and portfolio dashboard supporting real-time alerts, budgeting rules, and financial visualization.
+> ⚙️ **Core Tech Stack**: `Java`, `Spring Boot`, `Spring Security` (JWT), `JPA/Hibernate`, `PostgreSQL`, `Chart.js`, `HTML5/CSS3`
+
 <details>
-  <summary><b>💰 Project 3: Personal Finance Tracker — Secure Expense Management</b></summary>
+  <summary>🔍 Click to view Features & Architecture details</summary>
   <br>
   
-  ### 📌 Overview
+  ### 📌 Overview Details
   * **Problem Statement**: Users find it difficult to manage personal budgets, track asset growth, and calculate unified financial health ratings across different transaction categories.
-  * **What it does**: A fully secured, production-ready expense tracker and portfolio dashboard supporting real-time alerts, budgeting rules, and financial visualization.
-  * **Tech Stack**: `Java`, `Spring Boot`, `Spring Security` (JWT), `JPA/Hibernate`, `PostgreSQL`, `Chart.js`, `Vanilla CSS`.
   * **Key Features**:
     * **Transaction Ingestion**: Multi-category entry records with automatic classification systems.
     * **Limit Warning Engine**: Automated triggers warning users visually when categories approach budget thresholds.
@@ -141,15 +176,19 @@
   * **🔗 Repository**: [Personal-Finance-Tracker](https://github.com/RitikPandey68/Personal-Finance-Tracker)
 </details>
 
+<br>
+
 <!-- Project 4 -->
+### 💬 Project 4: AI Customer Support Chatbot — Semantic RAG Pipeline
+> 📄 **Description**: A Retrieval-Augmented Generation (RAG) Customer Support Chatbot matching inquiries using vector search, detecting sentiment, and rendering dashboard controls.
+> ⚙️ **Core Tech Stack**: `Python`, `FastAPI`, `SQLAlchemy`, `PostgreSQL` (pgvector), `Redis`, `Chart.js`, `Vanilla HTML/CSS/JS`
+
 <details>
-  <summary><b>💬 Project 4: AI Customer Support Chatbot — Semantic RAG Pipeline</b></summary>
+  <summary>🔍 Click to view Features & Architecture details</summary>
   <br>
   
-  ### 📌 Overview
+  ### 📌 Overview Details
   * **Problem Statement**: Legacy support systems fail to respond instantly, and generic chatbots cannot access contextual knowledgebases or route frustrated users to human agents.
-  * **What it does**: A Retrieval-Augmented Generation (RAG) Customer Support Chatbot matching inquiries using vector search, detecting sentiment, and rendering dashboard controls.
-  * **Tech Stack**: `Python`, `FastAPI`, `SQLAlchemy`, `PostgreSQL` (pgvector), `Redis`, `Chart.js`, `Vanilla HTML/CSS/JS`.
   * **Key Features**:
     * **Simulated RAG Search**: Computes similarity scores between customer questions and vector-indexed knowledge blocks.
     * **NLP Sentiment Escalation**: Monitors customer frustration levels, auto-routing high-risk sessions to human support.
@@ -162,15 +201,19 @@
   * **🔗 Repository**: [Ai-Customer-Support-Chatbot](https://github.com/RitikPandey68/Ai-Customer-Support-Chatbot)
 </details>
 
+<br>
+
 <!-- Project 5 -->
+### 🛒 Project 5: E-Commerce Platform — Transactional Storefront
+> 📄 **Description**: A fully responsive multi-category storefront displaying product catalogs, search filtering, session cart caching, and security setups.
+> ⚙️ **Core Tech Stack**: `Java`, `Spring Boot`, `JPA/Hibernate`, `Spring Security` (JWT), `PostgreSQL`, `Vanilla HTML5/CSS3/JS`
+
 <details>
-  <summary><b>🛒 Project 5: E-Commerce Platform — Transactional Storefront</b></summary>
+  <summary>🔍 Click to view Features & Architecture details</summary>
   <br>
   
-  ### 📌 Overview
+  ### 📌 Overview Details
   * **Problem Statement**: Designing secure storefronts requires managing complex product filter combinations, persisting user shopping carts, and ensuring transaction consistency.
-  * **What it does**: A fully responsive multi-category storefront displaying product catalogs, search filtering, session cart caching, and security setups.
-  * **Tech Stack**: `Java`, `Spring Boot`, `JPA/Hibernate`, `Spring Security` (JWT), `PostgreSQL`, `Vanilla JS`.
   * **Key Features**:
     * **Dynamic Catalogs**: Dynamic grid indexing 24+ products across Fashion, Tech, and Shoes.
     * **Multi-Tier Filters**: Sidebars for real-time cost sliders, product review ratings, and brand checkers.
@@ -184,15 +227,19 @@
   * **🔗 Repository**: [Ecommerce-Website](https://github.com/RitikPandey68/Ecommerce-Website)
 </details>
 
+<br>
+
 <!-- Project 6 -->
+### 📸 Project 6: Face Recognition Attendance System — Dual Mode Biometrics
+> 📄 **Description**: A face recognition check-in platform simulating camera feeds, identifying registered faces, logging timings, and plotting compliance.
+> ⚙️ **Core Tech Stack**: `Python`, `FastAPI`, `SQLAlchemy`, `OpenCV`, `DeepFace / face_recognition`, `SQLite/PostgreSQL`, `Chart.js`
+
 <details>
-  <summary><b>📸 Project 6: Face Recognition Attendance System — Dual Mode Biometrics</b></summary>
+  <summary>🔍 Click to view Features & Architecture details</summary>
   <br>
   
-  ### 📌 Overview
+  ### 📌 Overview Details
   * **Problem Statement**: Traditional attendance tracking via registers or scanners is slow, error-prone, and lacks visual reports or simple registration steps.
-  * **What it does**: A face recognition check-in platform simulating camera feeds, identifying registered faces, logging timings, and plotting compliance.
-  * **Tech Stack**: `Python`, `FastAPI`, `SQLAlchemy`, `OpenCV`, `DeepFace / face_recognition`, `SQLite/PostgreSQL`, `Chart.js`.
   * **Key Features**:
     * **Three-Tier Landing Paths**: Custom interfaces customized for corporate, college, or school setups.
     * **HUD Camera Simulator**: Interactive camera frames scanning facial targets in real time.
@@ -206,15 +253,19 @@
   * **🔗 Repository**: [Attendance-Tracking-Systems](https://github.com/RitikPandey68/Attendance-Tracking-Systems)
 </details>
 
+<br>
+
 <!-- Project 7 -->
+### 📈 Project 7: Stock Market Dashboard — WebSocket & Time-Series Ledger
+> 📄 **Description**: A high-performance trading dashboard consuming real-time stock ticks, charting prices, executing orders, and compiling assets.
+> ⚙️ **Core Tech Stack**: `Java`, `Spring Boot`, `TimescaleDB` (PostgreSQL Time-Series), `Spring WebSockets`, `Redis Cache`, `Chart.js`
+
 <details>
-  <summary><b>📈 Project 7: Stock Market Dashboard — WebSocket & Time-Series Ledger</b></summary>
+  <summary>🔍 Click to view Features & Architecture details</summary>
   <br>
   
-  ### 📌 Overview
+  ### 📌 Overview Details
   * **Problem Statement**: Storing and displaying high-frequency financial tickers causes write bottlenecks, massive storage inflation, and lagging dashboards on typical relational database setups.
-  * **What it does**: A high-performance trading dashboard consuming real-time stock ticks, charting prices, executing orders, and compiling assets.
-  * **Tech Stack**: `Java`, `Spring Boot`, `TimescaleDB` (PostgreSQL Time-Series), `Spring WebSockets`, `Redis Cache`, `Chart.js`.
   * **Key Features**:
     * **Live WebSocket Feed**: Streams active ticker cost adjustments directly to client displays every 4 seconds.
     * **Trading HUD**: Execute instant simulated Buy/Sell orders on tickers.
@@ -228,15 +279,19 @@
   * **🔗 Repository**: [stock-market-dashboard](https://github.com/RitikPandey68/stock-market-dashboard)
 </details>
 
+<br>
+
 <!-- Project 8 -->
+### 💼 Project 8: Job Portal — LinkedIn-Style Platform
+> 📄 **Description**: A unified job listing portal scraping simulated listings from major sites, presenting details in-app, and allowing rapid applications.
+> ⚙️ **Core Tech Stack**: `Java`, `Spring Boot`, `JPA/Hibernate`, `Spring Security` (JWT), `PostgreSQL`, `Vanilla HTML/CSS/JS`
+
 <details>
-  <summary><b>💼 Project 8: Job Portal — LinkedIn-Style Platform</b></summary>
+  <summary>🔍 Click to view Features & Architecture details</summary>
   <br>
   
-  ### 📌 Overview
+  ### 📌 Overview Details
   * **Problem Statement**: Job listings are spread thin across dozens of platforms, forcing candidates to create many profiles and manage applications across inconsistent links.
-  * **What it does**: A unified job listing portal scraping simulated listings from major sites, presenting details in-app, and allowing rapid applications.
-  * **Tech Stack**: `Java`, `Spring Boot`, `JPA/Hibernate`, `Spring Security` (JWT), `PostgreSQL`, `Vanilla HTML/CSS/JS`.
   * **Key Features**:
     * **Simulated Aggregator**: Consolidates postings from LinkedIn, Indeed, and Naukri into one unified catalog.
     * **In-Portal Details Drawer**: Read full descriptions and requirements without page redirects.
@@ -250,15 +305,19 @@
   * **🔗 Repository**: [job-portal](https://github.com/RitikPandey68/job-portal)
 </details>
 
+<br>
+
 <!-- Project 9 -->
+### 🏥 Project 9: Hospital Management System — Medical Records Ledger
+> 📄 **Description**: An integrated hospital dashboard facilitating medical scheduling, Electronic Health Record search, bed allocations, and billing.
+> ⚙️ **Core Tech Stack**: `Java`, `Spring Boot`, `JPA/Hibernate`, `PostgreSQL`, `Vanilla HTML5/CSS3/JavaScript`
+
 <details>
-  <summary><b>🏥 Project 9: Hospital Management System — Medical Records Ledger</b></summary>
+  <summary>🔍 Click to view Features & Architecture details</summary>
   <br>
   
-  ### 📌 Overview
+  ### 📌 Overview Details
   * **Problem Statement**: Healthcare operators must coordinate appointment slots, look up large patient EHR files quickly, and manage ward availability logs securely.
-  * **What it does**: An integrated hospital dashboard facilitating medical scheduling, Electronic Health Record search, bed allocations, and billing.
-  * **Tech Stack**: `Java`, `Spring Boot`, `JPA/Hibernate`, `PostgreSQL`, `Vanilla HTML5/CSS3/JavaScript`.
   * **Key Features**:
     * **Doctor Roster Scheduler**: Real-time checking of doctor availabilities to book consultation slots.
     * **EHR Search Console**: Complete medical records lookup by patient ID tags.
@@ -272,15 +331,19 @@
   * **🔗 Repository**: [hospital-management](https://github.com/RitikPandey68/hospital-management)
 </details>
 
+<br>
+
 <!-- Project 10 -->
+### 🎬 Project 10: Netflix Clone — High-Performance Streaming UI
+> 📄 **Description**: A premium movie discovery application utilizing object storage, categorized rows, watchlists, and movie details drawer.
+> ⚙️ **Core Tech Stack**: `Java`, `Spring Boot`, `PostgreSQL`, `MongoDB`, `MinIO` (Object Storage), `Vanilla HTML/CSS/JS`
+
 <details>
-  <summary><b>🎬 Project 10: Netflix Clone — High-Performance Streaming UI</b></summary>
+  <summary>🔍 Click to view Features & Architecture details</summary>
   <br>
   
-  ### 📌 Overview
+  ### 📌 Overview Details
   * **Problem Statement**: Media portals need to serve massive binary video payloads and catalog search queries concurrently without putting high loads on standard transactional databases.
-  * **What it does**: A premium movie discovery application utilizing object storage, categorized rows, watchlists, and movie details drawer.
-  * **Tech Stack**: `Java`, `Spring Boot`, `PostgreSQL` (User lists), `MongoDB` (Reviews), `MinIO` (Object Storage), `Vanilla HTML/CSS/JS`.
   * **Key Features**:
     * **Cinematic Billboard**: Animated landing spotlight banner displaying featured releases.
     * **Horizontal Row Scroll**: Scrolling list rows (Trending, Sci-Fi, Horror) with overlay detail buttons.
@@ -294,15 +357,19 @@
   * **🔗 Repository**: [netflix-clone](https://github.com/RitikPandey68/netflix-clone)
 </details>
 
+<br>
+
 <!-- Project 11 -->
+### 📄 Project 11: AI Document Summarizer — RAG-based Document Intelligence
+> 📄 **Description**: A secure document summarization portal where users drag-and-drop documents, select summary formats, and query content via RAG chatbot.
+> ⚙️ **Core Tech Stack**: `Python`, `FastAPI`, `SQLAlchemy`, `PostgreSQL` (pgvector), `MinIO` (Document Storage), `Vanilla HTML5/CSS3/JavaScript`
+
 <details>
-  <summary><b>📄 Project 11: AI Document Summarizer — RAG-based Document Intelligence</b></summary>
+  <summary>🔍 Click to view Features & Architecture details</summary>
   <br>
   
-  ### 📌 Overview
+  ### 📌 Overview Details
   * **Problem Statement**: Enterprise personnel struggle to parse, digest, and query long-form PDF reports, financial contracts, or legal papers efficiently.
-  * **What it does**: A secure document summarization portal where users drag-and-drop documents, select summary formats, and query content via RAG chatbot.
-  * **Tech Stack**: `Python`, `FastAPI`, `SQLAlchemy`, `PostgreSQL` (pgvector), `MinIO` (Document Storage), `Vanilla HTML5/CSS3/JavaScript`.
   * **Key Features**:
     * **Upload Zone**: Drag-and-drop file inputs with progress bars and format checking.
     * **Dual-Pane Console**: Side-by-side comparison pane showing original documents next to AI briefs.
@@ -316,15 +383,19 @@
   * **🔗 Repository**: [ai-document-summarizer](https://github.com/RitikPandey68/ai-document-summarizer)
 </details>
 
+<br>
+
 <!-- Project 12 -->
+### 📊 Project 12: Sales & Revenue Analytics Dashboard — Predictive Data Pipeline
+> 📄 **Description**: An end-to-end data analytics and predictive ML pipeline displaying sales trends, metrics, and forecasts.
+> ⚙️ **Core Tech Stack**: `Python`, `Pandas`, `NumPy`, `Scikit-Learn`, `Streamlit`, `MySQL`, `Docker`, `GitHub Actions`
+
 <details>
-  <summary><b>📊 Project 12: Sales & Revenue Analytics Dashboard — Predictive Data Pipeline</b></summary>
+  <summary>🔍 Click to view Features & Architecture details</summary>
   <br>
   
-  ### 📌 Overview
+  ### 📌 Overview Details
   * **Problem Statement**: Revenue operations departments face challenges with manual data cleaning and lack predictive analytics models for future revenue forecasts.
-  * **What it does**: An end-to-end data analytics and predictive ML pipeline displaying sales trends, metrics, and forecasts.
-  * **Tech Stack**: `Python`, `Pandas`, `NumPy`, `Scikit-Learn`, `Streamlit`, `MySQL`, `Docker`, `GitHub Actions`.
   * **Key Features**:
     * **Data Ingestion Pipeline**: Auto-ingests, cleans, and standardizes raw sales logs.
     * **ML Forecast Engine**: Trains regression models to predict revenue trends for upcoming quarters.
@@ -337,15 +408,19 @@
   * **🔗 Repository**: [sales-revenue-analytics-dashboard](https://github.com/RitikPandey68/sales-revenue-analytics-dashboard)
 </details>
 
+<br>
+
 <!-- Project 13 -->
+### ⚙️ Project 13: Workflow Automation Backend — Distributed Task Orchestrator
+> 📄 **Description**: A distributed background workflow controller designed to build automation flows, schedule triggers, and monitor tasks.
+> ⚙️ **Core Tech Stack**: `Java`, `Spring Boot`, `JPA/Hibernate`, `MySQL`
+
 <details>
-  <summary><b>⚙️ Project 13: Workflow Automation Backend — Distributed Task Orchestrator</b></summary>
+  <summary>🔍 Click to view Features & Architecture details</summary>
   <br>
   
-  ### 📌 Overview
+  ### 📌 Overview Details
   * **Problem Statement**: Enterprise backends need a resilient orchestration engine to schedule complex background processes, run task chains, and check states.
-  * **What it does**: A distributed background workflow controller designed to build automation flows, schedule triggers, and monitor tasks.
-  * **Tech Stack**: `Java`, `Spring Boot`, `JPA/Hibernate`, `MySQL`.
   * **Key Features**:
     * **Cron Task Scheduler**: Manages complex cron and delay timers for asynchronous tasks.
     * **Workflow Builder API**: Interfaces to define chains of dependent task blocks.
@@ -358,15 +433,19 @@
   * **🔗 Repository**: [workflow-automation-backend](https://github.com/RitikPandey68/workflow-automation-backend)
 </details>
 
+<br>
+
 <!-- Project 14 -->
+### ⚡ Project 14: Smart Energy Grid — Usage Optimization Dashboard
+> 📄 **Description**: A grid optimization dashboard simulating grid load trends, usage forecasts, and peak pricing strategies.
+> ⚙️ **Core Tech Stack**: `Vanilla CSS/JS`, `HTML5`, `Java` (Backend REST), `Python` (Analytical scripts)
+
 <details>
-  <summary><b>⚡ Project 14: Smart Energy Grid — Usage Optimization Dashboard</b></summary>
+  <summary>🔍 Click to view Features & Architecture details</summary>
   <br>
   
-  ### 📌 Overview
+  ### 📌 Overview Details
   * **Problem Statement**: Utility operations struggle with grid instability, peak-hour overload costs, and lack of real-time usage monitoring widgets.
-  * **What it does**: A grid optimization dashboard simulating grid load trends, usage forecasts, and peak pricing strategies.
-  * **Tech Stack**: `Vanilla CSS/JS`, `HTML5`, `Java` (Backend REST), `Python` (Analytical scripts).
   * **Key Features**:
     * **Grid Load Visualizer**: Dynamic line charts plotting load distributions.
     * **Peak-Alert Indicators**: Warning prompts triggered when simulated grid loads approach max capacities.
