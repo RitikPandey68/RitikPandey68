@@ -1,9 +1,8 @@
 <h1 align="center">Hi ðŸ‘‹, I'm Ritik Pandey</h1>
 <h3 align="center">Software Developer | Backend & Java Full Stack</h3>
 
-<p align="center">
-  <strong>Backend-focused Software Development Engineer with hands-on experience in distributed systems, RESTful API design, and cloud-ready architectures.</strong>
-</p>
+> Backend-focused Software Development Engineer with hands-on experience in  
+> distributed systems, RESTful API design, and cloud-ready architectures.
 
 ---
 
@@ -16,7 +15,7 @@
 
 ---
 
-## ðŸ› ï¸ Tech Stack & Skills
+## ðŸ› ï¸ Tech Stack
 <table border="0">
   <tr>
     <td align="center" width="100"><img src="https://skillicons.dev/icons?i=java" width="45" alt="Java"/><br/><b>Java</b></td>
@@ -43,11 +42,11 @@
 
 ---
 
-## ðŸ“Œ Featured Projects (Top 15 Showcase)
+## ðŸ“Œ Featured Projects
 
 ðŸ”¹ **[Ai-Resume-Analyzer](https://github.com/RitikPandey68/Ai-Resume-Analyzer)**  
 AI-powered PDF resume parsing and matching scoring system using Python, FastAPI, and NLP models.  
-*Key Features:* Drag-and-drop parser, NLP match scoring indexer, glassmorphic dynamic recommendations dashboard.
+*Key Features:* Drag-and-drop parser, NLP match scoring indexer, glassmorphic recommendations dashboard.
 
 ðŸ”¹ **[Personal-Finance-Tracker](https://github.com/RitikPandey68/Personal-Finance-Tracker)**  
 Advanced financial tracking portal built with Spring Boot, JPA, Spring Security (JWT), and interactive Chart.js dashboards.  
@@ -108,6 +107,7 @@ Machine learningâ€“based prediction pipeline using Python, focusing on data
 
 ## ðŸ§  System Design & Engineering Focus
 This work reflects real-world backend engineering principles:
+
 - Multi-tier backend architecture
 - RESTful API design with separation of concerns
 - Role-based access control (RBAC)
@@ -120,6 +120,7 @@ This work reflects real-world backend engineering principles:
 
 ## â˜ï¸ Cloud & Deployment (AWS)
 Experienced in designing cloud-ready backend systems:
+
 - Backend designed for deployment on **AWS EC2**
 - MongoDB hosted on cloud-based instances
 - Environment-based configuration using .env
@@ -138,17 +139,40 @@ Experienced in designing cloud-ready backend systems:
 
 ---
 
-## ðŸ¤ Connect With Me
-- **GitHub:** https://github.com/RitikPandey68
-- **LinkedIn:** https://www.linkedin.com/in/ritik-pandey-sde/
-- **Leetcode:** https://leetcode.com/u/ritikpandeycode/
-- **HackerRank:** https://www.hackerrank.com/profile/pandeyritikkuma1
+## ðŸŽ¯ Why I Build Projects Like This
+These projects are built to simulate real production systems and to gain
+hands-on experience with:
+
+- Designing scalable backend services
+- Handling real-world data consistency challenges
+- Implementing secure authentication flows
+- Thinking like a backend engineer, not just writing CRUD code
+
+---
+
+## ðŸš€ Production Readiness Considerations
+- Input validation and edge-case handling
+- Secure handling of credentials via environment variables
+- Architecture ready for monitoring & logging integration
+- Designed with CI/CD and deployment pipelines in mind
+
+---
+
+## ðŸš€ Currently Working On
+- Strengthening backend architecture & service boundaries
+- Improving API security, validation, and error handling
+- Enhancing cloud deployment knowledge (AWS & Docker)
 
 ---
 
 ## ðŸ“Š GitHub Activity
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=RitikPandey68&show_icons=true" alt="GitHub Stats" />
-  <br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RitikPandey68" alt="GitHub Streak" />
-</p>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=RitikPandey68&show_icons=true)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=RitikPandey68)
+
+---
+
+## ðŸ¤ Connect With Me
+- GitHub: https://github.com/RitikPandey68
+- LinkedIn: https://www.linkedin.com/in/ritik-pandey-sde/
+- Leetcode: https://leetcode.com/u/ritikpandeycode/
+- HackerRank: https://www.hackerrank.com/profile/pandeyritikkuma1
