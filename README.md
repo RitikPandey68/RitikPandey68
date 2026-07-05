@@ -1,8 +1,9 @@
 <h1 align="center">Hi 👋, I'm Ritik Pandey</h1>
 <h3 align="center">Software Developer | Backend & Java Full Stack</h3>
 
-> Backend-focused Software Development Engineer with hands-on experience in  
-> distributed systems, RESTful API design, and cloud-ready architectures.
+<p align="center">
+  <strong>Backend-focused Software Development Engineer with hands-on experience in distributed systems, RESTful API design, and cloud-ready architectures.</strong>
+</p>
 
 ---
 
@@ -15,30 +16,86 @@
 
 ---
 
-## 🛠️ Tech Stack
-<p>
-  <img src="https://skillicons.dev/icons?i=python,java,fastapi,mongodb,mysql,git,docker,aws,linux" />
-</p>
+## 🛠️ Tech Stack & Skills
+<table border="0">
+  <tr>
+    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=java" width="45" alt="Java"/><br/><b>Java</b></td>
+    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=python" width="45" alt="Python"/><br/><b>Python</b></td>
+    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=spring" width="45" alt="Spring"/><br/><b>Spring Boot</b></td>
+    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=fastapi" width="45" alt="FastAPI"/><br/><b>FastAPI</b></td>
+    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=postgres" width="45" alt="Postgres"/><br/><b>PostgreSQL</b></td>
+    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=mysql" width="45" alt="MySQL"/><br/><b>MySQL</b></td>
+  </tr>
+  <tr>
+    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=mongodb" width="45" alt="MongoDB"/><br/><b>MongoDB</b></td>
+    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=redis" width="45" alt="Redis"/><br/><b>Redis</b></td>
+    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=docker" width="45" alt="Docker"/><br/><b>Docker</b></td>
+    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=aws" width="45" alt="AWS"/><br/><b>AWS</b></td>
+    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=git" width="45" alt="Git"/><br/><b>Git</b></td>
+    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=linux" width="45" alt="Linux"/><br/><b>Linux</b></td>
+  </tr>
+  <tr>
+    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=html" width="45" alt="HTML"/><br/><b>HTML5</b></td>
+    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=css" width="45" alt="CSS"/><br/><b>CSS3</b></td>
+    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=js" width="45" alt="JS"/><br/><b>JavaScript</b></td>
+  </tr>
+</table>
 
 ---
 
 ## 📌 Featured Projects
 
-🔹 **AI-Powered Attendance Tracking & Academic Management System**  
-Secure, distributed backend system with JWT authentication, RBAC, MongoDB indexing,
-and Streamlit dashboards. Designed with scalability, fault tolerance, and
-real-world academic workflows in mind.  
-👉 [View Repository](https://github.com/RitikPandey68/Attendance-Tracking-Systems)
+🔹 **[Ai-Resume-Analyzer](https://github.com/RitikPandey68/Ai-Resume-Analyzer)**  
+AI-powered PDF resume parsing and matching scoring system using Python, FastAPI, and NLP models.  
+*Key Features:* Drag-and-drop parser, NLP match scoring indexer, glassmorphic dynamic recommendations dashboard.
+
+🔹 **[Personal-Finance-Tracker](https://github.com/RitikPandey68/Personal-Finance-Tracker)**  
+Advanced financial tracking portal built with Spring Boot, JPA, Spring Security (JWT), and interactive Chart.js dashboards.  
+*Key Features:* Categorized expense logs, limit notifications, investment ledger, and monthly spending charts.
+
+🔹 **[Ai-Customer-Support-Chatbot](https://github.com/RitikPandey68/Ai-Customer-Support-Chatbot)**  
+Scalable conversational AI widget featuring RAG search and live sentiment-sensitive escalation routing.  
+*Key Features:* Monthly partitioned message history (5TB scale), customizer dashboard, and FastAPI vector query pipelines.
+
+🔹 **[Ecommerce-Website](https://github.com/RitikPandey68/Ecommerce-Website)**  
+Premium E-Commerce platform with product filters and stateful carts built using Spring Boot, JPA, and Spring Security.  
+*Key Features:* Price sliders and rating checkers, stateful shopping cart, flash sales timers, and secure checkouts.
+
+🔹 **[Face-Recognition-Attendance](https://github.com/RitikPandey68/Face-Recognition-Attendance)**  
+AI Attendance logger with Corporate and Academic dashboard routes, built with FastAPI and OpenCV/DeepFace models.  
+*Key Features:* Live face scanner HUD overlay, identity registration logs, and weekly attendance dashboards.
+
+🔹 **[Stock-Market-Dashboard](https://github.com/RitikPandey68/Stock-Market-Dashboard)**  
+Real-time stock portfolio platform featuring TimescaleDB hypertable tick compression and order books.  
+*Key Features:* Live price tickers (4s update), Buy/Sell transaction execution, interactive Chart.js trading graphs.
+
+🔹 **[Job-Portal](https://github.com/RitikPandey68/Job-Portal)**  
+Aggregated job search portal inspired by LinkedIn, built using Spring Boot, Security, and PostgreSQL.  
+*Key Features:* Unified job details modal (direct applications without redirects), scraper aggregates, employer job poster forms.
+
+🔹 **[Hospital-Management](https://github.com/RitikPandey68/Hospital-Management)**  
+Clinic and patient EHR management dashboard utilizing range-partitioned diagnostic databases.  
+*Key Features:* OPD appointment scheduling, emergency ward bed occupancy meter, billing invoicing dashboard.
+
+🔹 **[Netflix-Clone](https://github.com/RitikPandey68/Netflix-Clone)**  
+UHD media streaming clone routing large binary video assets to MinIO object storage.  
+*Key Features:* Watching lists APIs, comments reviews catalog, interactive HUD video player with seek bars.
+
+🔹 **[Ai-Document-Summarizer](https://github.com/RitikPandey68/Ai-Document-Summarizer)**  
+Secure document summarizer and RAG Q&A assistant utilizing partitioned MinIO storage clusters.  
+*Key Features:* Side-by-side text comparisons, summarizing density dialers, context-bound query chatbots.
+
+🔹 **[AI-Powered Attendance Tracking & Academic Management System](https://github.com/RitikPandey68/Attendance-Tracking-Systems)**  
+Secure, distributed backend system with JWT authentication, RBAC, MongoDB indexing, and Streamlit dashboards.  
+*Key Features:* Designed with scalability, fault tolerance, and real-world academic workflows in mind.
 
 🔹 **Diabetes Prediction System**  
-Machine learning–based prediction pipeline using Python, focusing on data preprocessing,
-model training, validation, and future backend inference readiness.
+Machine learning–based prediction pipeline using Python, focusing on data preprocessing, model training, validation, and future backend inference readiness.
 
 ---
 
 ## 🧠 System Design & Engineering Focus
 This work reflects real-world backend engineering principles:
-
 - Multi-tier backend architecture
 - RESTful API design with separation of concerns
 - Role-based access control (RBAC)
@@ -51,7 +108,6 @@ This work reflects real-world backend engineering principles:
 
 ## ☁️ Cloud & Deployment (AWS)
 Experienced in designing cloud-ready backend systems:
-
 - Backend designed for deployment on **AWS EC2**
 - MongoDB hosted on cloud-based instances
 - Environment-based configuration using `.env`
@@ -70,40 +126,17 @@ Experienced in designing cloud-ready backend systems:
 
 ---
 
-## 🎯 Why I Build Projects Like This
-These projects are built to simulate real production systems and to gain
-hands-on experience with:
-
-- Designing scalable backend services
-- Handling real-world data consistency challenges
-- Implementing secure authentication flows
-- Thinking like a backend engineer, not just writing CRUD code
-
----
-
-## 🚀 Production Readiness Considerations
-- Input validation and edge-case handling
-- Secure handling of credentials via environment variables
-- Architecture ready for monitoring & logging integration
-- Designed with CI/CD and deployment pipelines in mind
-
----
-
-## 🚀 Currently Working On
-- Strengthening backend architecture & service boundaries
-- Improving API security, validation, and error handling
-- Enhancing cloud deployment knowledge (AWS & Docker)
+## 🤝 Connect With Me
+- **GitHub:** https://github.com/RitikPandey68
+- **LinkedIn:** https://www.linkedin.com/in/ritik-pandey-sde/
+- **Leetcode:** https://leetcode.com/u/ritikpandeycode/
+- **HackerRank:** https://www.hackerrank.com/profile/pandeyritikkuma1
 
 ---
 
 ## 📊 GitHub Activity
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=RitikPandey68&show_icons=true)
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=RitikPandey68)
-
----
-
-## 🤝 Connect With Me
-- GitHub: https://github.com/RitikPandey68
-- LinkedIn: https://www.linkedin.com/in/ritik-pandey-sde/
-- Leetcode: https://leetcode.com/u/ritikpandeycode/
-- HakcerRank: https://www.hackerrank.com/profile/pandeyritikkuma1
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=RitikPandey68&show_icons=true" alt="GitHub Stats" />
+  <br/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RitikPandey68" alt="GitHub Streak" />
+</p>
